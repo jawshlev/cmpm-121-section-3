@@ -11,4 +11,8 @@ const config: Phaser.Types.Core.GameConfig = {
 document.title = "Rocket Patrol Remake";
 document.body.style.backgroundColor = "beige";
 
-new Phaser.Game(config);
+// eslint-disable-next-line no-unused-vars
+
+let game: Phaser.Game;
+// eslint-disable-next-line prefer-const, no-unused-vars
+game = new Phaser.Game(config);
