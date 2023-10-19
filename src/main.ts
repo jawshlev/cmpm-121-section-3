@@ -13,6 +13,4 @@ document.body.style.backgroundColor = "beige";
 
 // eslint-disable-next-line no-unused-vars
 
-let game: Phaser.Game;
-// eslint-disable-next-line prefer-const, no-unused-vars
-game = new Phaser.Game(config);
+new Phaser.Game(config);
